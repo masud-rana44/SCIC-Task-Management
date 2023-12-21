@@ -7,6 +7,7 @@ import { AiOutlineClose } from "react-icons/ai";
 import { User } from "./User";
 import { Button } from "./ui/Button";
 import { Logo } from "./Logo";
+import { useAuth } from "../contexts/AuthContext";
 
 const links = [
   {
@@ -26,11 +27,8 @@ const links = [
 export const Navbar = () => {
   const navigate = useNavigate();
   const location = useLocation();
-  // const { user, logOut } = useAuth();
+  const { user, logOut } = useAuth();
   const [isOpen, setIsOpen] = useState(false);
-
-  const user = false;
-  const logOut = () => {};
 
   const { pathname } = location;
 
