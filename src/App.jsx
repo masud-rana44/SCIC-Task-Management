@@ -1,5 +1,7 @@
+import { AppLayout } from "./components/AppLayout";
+
 const App = () => {
-  return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
+  return <AppLayout />;
 };
 
 export default App;
