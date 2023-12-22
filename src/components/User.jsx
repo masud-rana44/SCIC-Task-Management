@@ -1,7 +1,8 @@
 import { RxAvatar } from "react-icons/rx";
+import { useAuth } from "../contexts/AuthContext";
 
 export const User = () => {
-  const { user } = false;
+  const { user } = useAuth();
 
   if (!user) return null;
 

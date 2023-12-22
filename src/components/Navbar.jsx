@@ -15,12 +15,12 @@ const links = [
     href: "/",
   },
   {
-    label: "Add Product",
-    href: "/products/new",
+    label: "Dashboard",
+    href: "/dashboard",
   },
   {
-    label: "My Cart",
-    href: "/cart",
+    label: "About",
+    href: "/about",
   },
 ];
 
