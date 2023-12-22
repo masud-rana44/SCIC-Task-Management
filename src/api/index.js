@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const baseUrl = "http://localhost:5000";
+const baseUrl = "https://taskify-seven-mu.vercel.app";
 
 // Get all tasks
 export const getAllTasks = async () => {
