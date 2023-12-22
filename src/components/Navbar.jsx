@@ -19,8 +19,8 @@ const links = [
     href: "/dashboard",
   },
   {
-    label: "About",
-    href: "/about",
+    label: "Add Task",
+    href: "/add-new-task",
   },
 ];
 

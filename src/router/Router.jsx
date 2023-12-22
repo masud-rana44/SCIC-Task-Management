@@ -8,7 +8,7 @@ import Login from "../pages/Login";
 import Register from "../pages/Register";
 import Dashboard from "../pages/Dashboard";
 import { PrivateRoute } from "./PrivateRoute";
-import About from "../pages/About";
+import AddNewTask from "../pages/AddNewTask";
 
 const router = createBrowserRouter([
   {
@@ -21,8 +21,8 @@ const router = createBrowserRouter([
         element: <Home />,
       },
       {
-        path: "/about",
-        element: <About />,
+        path: "/add-new-task",
+        element: <AddNewTask />,
       },
       {
         path: "/dashboard",
